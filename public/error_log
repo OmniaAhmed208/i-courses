@@ -1,0 +1,8 @@
+[24-Nov-2023 21:34:53 UTC] PHP Warning:  require(/home/icoutsek/public_html/icourses/vendor/composer/../facade/flare-client-php/src/helpers.php): Failed to open stream: No such file or directory in /home/icoutsek/public_html/icourses/vendor/composer/autoload_real.php on line 55
+[24-Nov-2023 21:34:53 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/icoutsek/public_html/icourses/vendor/composer/../facade/flare-client-php/src/helpers.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/icoutsek/public_html/icourses/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /home/icoutsek/public_html/icourses/vendor/composer/autoload_real.php(38): composerRequire6c4ed26eebfa8569817658cafe924ab4()
+#1 /home/icoutsek/public_html/icourses/vendor/autoload.php(25): ComposerAutoloaderInit6c4ed26eebfa8569817658cafe924ab4::getLoader()
+#2 /home/icoutsek/public_html/icourses/public/index.php(24): require('/home/icoutsek/...')
+#3 {main}
+  thrown in /home/icoutsek/public_html/icourses/vendor/composer/autoload_real.php on line 55
